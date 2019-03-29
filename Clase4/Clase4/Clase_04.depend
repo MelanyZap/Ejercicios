@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1553812042 source:/home/alumno/Descargas/workspace/ClasesUTN/Clase04_Biblioteca/Clase_04/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1553811984 source:/home/alumno/Descargas/workspace/ClasesUTN/Clase04_Biblioteca/Clase_04/utn.c
+	<stdio.h>
+
+1553811946 /home/alumno/Descargas/workspace/ClasesUTN/Clase04_Biblioteca/Clase_04/utn.h
+
+1553820687 source:/home/alumno/Descargas/workspace_c/Clase4/Clase4/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1553820392 /home/alumno/Descargas/workspace_c/Clase4/Clase4/utn.h
+
+1553821790 source:/home/alumno/Descargas/workspace_c/Clase4/Clase4/utn.c
+	<stdio.h>
+	<stdlib.h>
+
