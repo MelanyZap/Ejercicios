@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554417409 source:/home/alumno/Documentos/Melany/clase6/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"funciones.h"
+
+1554417513 /home/alumno/Documentos/Melany/clase6/funciones.h
+
+1554418606 source:/home/alumno/Documentos/Melany/clase6/main.c
+	<stdio.h>
+	<stdlib.h>
+
