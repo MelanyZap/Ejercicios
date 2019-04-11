@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1554933747 source:/home/alumno/Documentos/Melany/CLASE_07/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1554944804 source:/home/alumno/Documentos/Melany/CLASE_07/string.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
