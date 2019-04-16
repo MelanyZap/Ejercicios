@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555371565 source:d:\melany\clase_08\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Persona.h"
+
+1555367267 source:d:\melany\clase_08\utn.c
+
+1555369493 d:\melany\clase_08\utn.h
+
+1555371543 d:\melany\clase_08\persona.h
+
