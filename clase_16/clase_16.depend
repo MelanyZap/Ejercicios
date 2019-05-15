@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1557874178 source:d:\melany\clase_16\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
