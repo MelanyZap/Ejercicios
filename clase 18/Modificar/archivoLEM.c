@@ -3,6 +3,9 @@
 #include <conio.h>
 #define ARCH	".\\bin.dat"
 #define ESC 27
+//hacer un alta, baja, modicacion, salir.
+//hacer un isEmpty
+//hacer un listar todo
 
 struct a{
 		char nombre[31];
@@ -46,7 +49,7 @@ int main (void)
    printf("Legajo: ");
    scanf("%d", &legajoAux);
 
-   //se lleva el indicador de posición al principio para comenzar a leer
+   //se lleva el indicador de posiciÃ³n al principio para comenzar a leer
    rewind (bin);
 
    while(!feof(bin)){
@@ -76,7 +79,7 @@ int main (void)
       //printf("\n%s\t%d",pers.nombre,pers.edad);
    }
 
-   //se lleva el indicador de posición al principio para comenzar a leer
+   //se lleva el indicador de posiciÃ³n al principio para comenzar a leer
    rewind (bin);
 
    while(!feof(bin)){
