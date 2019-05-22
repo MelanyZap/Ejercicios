@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558484764 source:d:\melany\clase 18\modificar\archivolem.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

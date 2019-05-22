@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558483117 source:d:\melany\archivol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
