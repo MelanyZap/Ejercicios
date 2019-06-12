@@ -15,7 +15,7 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement);
  */
 LinkedList* ll_newLinkedList(void)
 {
-    LinkedList* this;
+    LinkedList* this; //declaro la variable this del tipo LinkedList.
     this = (LinkedList *)malloc(sizeof(LinkedList)); //pide memoria dinamica y con malloc crea la lista
     if(this != NULL)
     {
@@ -37,9 +37,9 @@ int ll_len(LinkedList* this) //devuelve size
     //tengo que controlar que sea distinto de null
     if(this != NULL)
     {
-        returnAux=this->size;
+        returnAux=this->size; //El valor que hay en el campo size se le asigna a returnAux.
     }
-    return returnAux;
+    return returnAux; //retorna el valor de  size si salio todo bien. Si salio todo mal retorna -1
 }
 
 
@@ -52,8 +52,20 @@ int ll_len(LinkedList* this) //devuelve size
  */
 static Node* getNode(LinkedList* this, int nodeIndex)
 {
-    Node* pNode = NULL;
-    if()
+    Node* pNode = NULL; //pNode es un puntero de tipo Node. Node es un puntero a la primera posicion de la direccion de memoria de Node.
+    if(this != NULL) //si la direccion de memoria esta vacia
+    {
+        if(nodeIndex >= 0 && nodeIndex < ll_len(this)) //ll_len(this) tamañao de la lista
+        {
+            pNode = this-> pFirstNode; //this es un puntero de la estructura Linkedlist(de tipo Linkedlist).
+            //en el campo pFirstNode de la variable this(que es una estructura de tipo LinkedList) le asignamos a pNode.
+            while(nodeIndex > 0)
+            {
+                pNode = pNode-> pNextNode; //nodo va a ser igual al siguiente nodo
+                nodeIndex--; //se decrementa porque va de atras para adelante
+            }
+        }
+    }
 
     return pNode;
 }
@@ -81,10 +93,10 @@ Node* test_getNode(LinkedList* this, int nodeIndex)
                         ( 0) Si funciono correctamente
  *
  */
+//toma un nodo y retorna el puntero si hay memoria sino retorna null.
 static int addNode(LinkedList* this, int nodeIndex,void* pElement)
 {
-    int returnAux = -1;
-
+    int returnAux = -1; //retorno -1 si esta mal
     return returnAux;
 }
 
@@ -343,8 +355,6 @@ LinkedList* ll_clone(LinkedList* this)
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 {
     int returnAux =-1;
-
     return returnAux;
 
 }
-
